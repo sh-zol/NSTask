@@ -96,7 +96,7 @@ namespace NSTask
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-app.UseAuthenthication();
+app.UseAuthentication();
 
             app.MapControllers();
 
